@@ -17,7 +17,7 @@ public class Vat{
 	    sName = target.nextLine();
 	    System.out.print("How much did it cost?: ");
 	    iCost = target.nextInt();
-	    rPrice = rVat_Calc * iCost;
+	    rPrice = iCost + (rVat_Calc * iCost);
 		
 		//Output
 	    System.out.print("So the total price for " + sName + " is R" + rPrice);	
